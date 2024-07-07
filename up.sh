@@ -37,17 +37,6 @@
 # https://www.baeldung.com/ops/git-remove-file-without-deleting-it
 # git rm --cached file.txt
 
-if [ -d dwm ]; then
-	sudo rm -r dwm
-fi
-
-if [ -d sysmon ]; then
-	sudo rm -r sysmon
-fi
-
-#find . -type f -name "*.rej" -exec rm -f {} \; -print
-#find . -type f -name "*.orig" -exec rm -f {} \; -print
-
 # Below command will backup everything inside the project folder
 git add --all .
 
